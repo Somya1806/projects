@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+width: 100%;
+padding: 10px;
+margin: 6px ;
+display: inline-block;
+border: 3px solid blue;
+border-radius: 5px;
+box-sizing: border-box;
+}
+input[type=submit] {
+width: 100%;
+background-color: orange;
+color: brown;
+padding: 12px 16px;
+margin: 6px;
+border: purple;
+}
+input[type=submit]:hover {
+background-color: green;
+}
+div {
+font-size:30px;
+background-color: aqua;
+padding:15px;
+ }
+</style>
+<body>
+<h3 style="color:Red;font-size:70px;text-align:center">Book A Trip</h3>
+<div style="text-align:center"><img src="temp.jfif" hight:"100px" width:"100px"></div>
+<div>
+<form action="/action_page.php">
+<label for="emp">Name</label>
+<input type="text" id="name" name="name" placeholder="Your name..">
+<label for="emp">Mobile Number</label>
+<input type="text" id="number" name="number" placeholder="Your Mobile Number..">
+<label for="emp">Email</label>
+<input type="text" id="mail" name="mail" placeholder="Your Email..">
+<label for="Address">Address</label>
+<input type="text" id="Address" name="Address" placeholder="Your Address..">
+<label for="places">Places you wish to visit</label><select id="places" name="places">
+<option value="All">All</option>
+<option value="Lingraj">Lingraj</option>
+<option value="Puri Jagannath ">Puri Jagannath</option>
+<option value="Kapilash">Kapilash</option>
+<option value="Ghatgaon Maa Tarani">Ghatgaon Maa Tarani</option>
+</select>
+<label for="Hotels">Hotels</label>
+<select	id="Hotels" name="hotels">
+<option	value="rajmahal">Hotel rajmahal,Bhubaneswar</option>
+<option	value="paradise">Hotel paradise,puri</option>
+<option	value="golden">Hotel golden,Dhenkanal</option>
+<option	value="Taj">Hotel Taj, Kendujhar</option>
+</select>
+<label for="payment">payment options</label>
+<select	id="payment" name="payment">
+<option	value="UPI">UPI</option>
+<option	value="Net Banking">Net Banking</option>
+<option	value="card">Credit/Debit Card</option>
+</select>
+<input	type="submit"	value="Confirm">
+</form>
+<button><a href="project.html">go back</button>
+</div>
+</body>
+</html>
